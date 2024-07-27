@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:jobizz/view/screens/application_tracking_screen.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
 }
 
@@ -9,9 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Jobizz App',
-      home: ,
+      home: ApplicationTrackingScreen(),
     );
   }
 }
