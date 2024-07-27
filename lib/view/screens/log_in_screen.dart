@@ -5,7 +5,7 @@ import 'package:jobizz/core/constants/app_images.dart';
 import 'package:jobizz/core/constants/app_size.dart';
 import 'package:jobizz/core/style/app_colors.dart';
 import 'package:jobizz/core/app_helper/app_validators.dart';
-import 'package:jobizz/core/custom_widgets/custom_text_button_form_field.dart';
+import 'package:jobizz/core/custom_widgets/custom_text_button.dart';
 import 'package:jobizz/core/custom_widgets/custom_text_form_field.dart';
 import 'package:jobizz/view/screens/forget_password_screen.dart';
 
@@ -140,7 +140,7 @@ class _LogInScreenState extends State<LogInScreen> {
               SizedBox(
                 height: AppSize.heightScale(context, 32),
               ),
-              CustomTextButtonFormField(
+              CustomTextButton(
                 text: 'Log in',
                 onTap: () {},
                 radius: 5,

@@ -5,7 +5,7 @@ import '../../core/app_helper/app_navigator.dart';
 import '../../core/app_helper/app_validators.dart';
 import '../../core/constants/app_images.dart';
 import '../../core/constants/app_size.dart';
-import '../../core/custom_widgets/custom_text_button_form_field.dart';
+import '../../core/custom_widgets/custom_text_button.dart';
 import '../../core/custom_widgets/custom_text_form_field.dart';
 import '../../core/style/app_colors.dart';
 
@@ -159,7 +159,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                 right: AppSize.widthScale(context, 24),
                 bottom: AppSize.heightScale(context, 47),
               ),
-              child: CustomTextButtonFormField(
+              child: CustomTextButton(
                 text: 'Reset Password',
                 onTap: () {},
                 radius: 5,

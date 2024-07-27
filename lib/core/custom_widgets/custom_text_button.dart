@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../style/app_colors.dart';
 
-class CustomTextButtonFormField extends StatelessWidget {
-  const CustomTextButtonFormField({
+class CustomTextButton extends StatelessWidget {
+  const CustomTextButton({
     super.key,
     required this.text,
     this.bgColor,

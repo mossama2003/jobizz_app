@@ -6,7 +6,7 @@ import 'package:pinput/pinput.dart';
 
 import '../../core/app_helper/app_navigator.dart';
 import '../../core/constants/app_size.dart';
-import '../../core/custom_widgets/custom_text_button_form_field.dart';
+import '../../core/custom_widgets/custom_text_button.dart';
 import '../../core/style/app_colors.dart';
 
 class VerifyScreen extends StatelessWidget {
@@ -111,7 +111,7 @@ class VerifyScreen extends StatelessWidget {
                 right: AppSize.widthScale(context, 24),
                 bottom: AppSize.heightScale(context, 128),
               ),
-              child: CustomTextButtonFormField(
+              child: CustomTextButton(
                 text: 'Verify',
                 onTap: () =>
                     AppNavigator.push(context, const ResetPasswordScreen()),

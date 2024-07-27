@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:jobizz/core/constants/app_images.dart';
 import 'package:jobizz/core/constants/app_size.dart';
-import 'package:jobizz/core/custom_widgets/custom_text_button_form_field.dart';
+import 'package:jobizz/core/custom_widgets/custom_text_button.dart';
 import 'package:jobizz/core/custom_widgets/custom_text_form_field.dart';
 import 'package:jobizz/core/style/app_colors.dart';
 import 'package:jobizz/core/app_helper/app_validators.dart';
@@ -193,7 +193,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 SizedBox(
                   height: AppSize.heightScale(context, 32),
                 ),
-                CustomTextButtonFormField(
+                CustomTextButton(
                   text: 'Register',
                   onTap: () {},
                   radius: 5,
