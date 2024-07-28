@@ -14,10 +14,12 @@ dependencies:
     sdk: flutter
 
   # Style & Widgets
+  flutter_svg: ^2.0.10+1
 
   # Controllers
 
   # Network & Storage
+  shared_preferences: ^2.2.3
 
 dev_dependencies:
   flutter_test:
@@ -31,7 +33,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/
+#    - assets/images/
     - assets/svg/
 
   fonts:
