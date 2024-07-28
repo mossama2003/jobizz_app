@@ -15,7 +15,7 @@ class CustomEllipse extends StatelessWidget {
           children: [
             Positioned(
               top: -245,
-              left: -20,
+              left: -21,
               child: Container(
                 width: AppSize.widthScale(context, 416),
                 height: AppSize.heightScale(context, 416),
