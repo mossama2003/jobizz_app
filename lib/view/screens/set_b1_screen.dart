@@ -31,6 +31,7 @@ class SetB1Screen extends StatelessWidget {
                   'Search your dream\njob fast and ease',
                   style: TextStyle(
                     fontFamily: 'Circular Std',
+                    fontWeight: FontWeight.bold,
                     fontSize: AppSize.textScale(context, 33),
                   ),
                 ),

@@ -9,7 +9,7 @@ class CustomEllipse extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 157,
+      height: AppSize.heightScale(context, 157),
       width: double.infinity,
       child: Stack(
           children: [
